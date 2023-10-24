@@ -34,7 +34,7 @@ class QuestionController(
     }
 
     @Operation(
-        summary = "질문 가져오기",
+        summary = "단원 가져오기",
         description = "1학년의 2과를 가져오고 싶다면 id는 '102'. 2학년의 4과를 가져오고 싶다면 id는 '204'."
     )
     @ApiResponses(value = [
